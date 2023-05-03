@@ -16,7 +16,7 @@ include_once 'user.php';
     <?php
     $adatbazis = new User();
     $adatbazis-> oszlopMegjelenit("felhasznalo","felhasznalonev","szuldatum");
-    $adatbazis-> oszlopFeltolt("felhasznalo","sfd","fd@fs.com","dsfsd",1);
+    $adatbazis-> oszlopFeltolt("felhasznalo","sfd","fd@fs.com","dsfsd","1");
     ?>
     </main>
 </body>
