@@ -43,4 +43,9 @@ class User
 
         echo $tablazat;
     }
+    public function oszlopFeltolt($tabla, $felhasznalonev, $email, $jelszo, $jogosultsag)
+    {
+        $sql = "INSERT INTO $tabla ($felhasznalonev, $email, $jelszo, $jogosultsag ) ";
+        $eredmeny = $this->lekerdezes($sql);
+    }
 }
